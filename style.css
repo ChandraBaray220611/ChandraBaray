@@ -1,0 +1,113 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    background-color: rgb(235, 241, 236);
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo a {
+font-size: 50px;
+font-weight: bold;
+float: left;
+font-family:'Courier New', Courier, monospace ;
+color: #0b2e55;
+}
+
+.menu{
+    float: right;
+}
+
+nav{
+    width: 100;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: rgb(88, 86, 86);
+    z-index: 1;
+    border-bottom: 1px solid #0b2e55;
+
+}
+.frame-image { 
+    border: 20px solid rgb(76, 88, 79); 
+    padding: 5px; 
+    width: 450px; 
+    float: left;
+  }
+  
+  .frame-image img { 
+    display: block; 
+    margin-bottom: 10px; 
+    width: 100%; 
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 30px;
+    font-family: 'comic sans ms';
+    color: rgb(7, 66, 66);
+}
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color:  rgb(7, 66, 66) ;
+    width: 90%;
+    line-height: 50px;
+}
+h3 {
+    margin-left: 30px;
+    margin-bottom: auto;
+}
+img {
+    float: right;
+    margin-left: 10;
+}
